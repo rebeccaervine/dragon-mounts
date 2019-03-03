@@ -25,11 +25,10 @@ public class DragonBreedLightning extends DragonBreed {
         
         addImmunity(DamageSource.magic);
         
-        addHabitatBlock(Blocks.END_STONE);
-        addHabitatBlock(Blocks.OBSIDIAN);
-        addHabitatBlock(Blocks.END_BRICKS);
+        addHabitatBlock(Blocks.STONE);
+        addHabitatBlock(Blocks.HAY_BLOCK);
         
-        addHabitatBiome(Biomes.SKY);
+        addHabitatBiome(Biomes.SWAMPLAND);
     }
 
     @Override
